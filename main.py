@@ -1,7 +1,7 @@
 import random
 import sys
 
-lives = 5
+lives = 7
 letter_1_found = False; letter_2_found = False; letter_3_found = False; letter_4_found = False
 tracker = []
 
@@ -94,6 +94,7 @@ def play_quadle():
     """)
 
     word = word_to_list() # Choose a random word out of the 333 available words.
+    print(f"Word: ['?', '?', '?', '?']    Letters Tried: [ ]    Lives: 7")
 
     while (letter_1_found is False or letter_2_found is False or letter_3_found is False or letter_4_found is False) and lives > 0: # For the game to end, either all 4 letters have to be guessed correctly or the number of lives drops to 0.
         guess = guess_letter() # Player guesses a letter.
