@@ -12,4 +12,5 @@ Rules:
 # **Changes**
 
 v.0.1.0 2023/01/07 -- Initial release
+
 v.0.1.1 2023/01/07 -- Increase the number of lives to 7 to make victory more achievable.
